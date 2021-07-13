@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#search {
+    display: flex;
+    position: relative;
+    border-width: 1px;
+    min-width: 100px;
+}
+
+#search-bar {
+    height: 45px;
+    width: 582px;
+    border-radius: 24px;
+    opacity: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+#search-bar:hover {
+    box-shadow: 0px 1px 3px 2px black;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+#google-logo {
+    display: flex;    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 190px;
+}
+
+#search-icon {
+    position: absolute;
+    font-size: 22px;
+    opacity: 32%;
+    margin-left: 675px;
+    margin-top: 42px;
+}
+
+#mic-icon {
+    position: absolute;
+    font-size: 22px;
+    margin-left: -700px;
+    margin-top: 42px;
+    color: rgb(66,133,244)
+}
+
+#navbar-one {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#navbar-two {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: -34px;
+    margin-left: 1680px;
+}
+
+li a{
+    color: rgb(63, 63, 63);
+    font-family: Roboto;
+    font-size: 13px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#apps-icon {
+    opacity: 75%;
+    margin-top: -2px;
+}
+
+#my-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    margin-top: -5px;
+}
+
+footer {
+    display: relative;
+    position: absolute;
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-top: 100px;
+}
+
+#footer-one {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+#footer-two {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
