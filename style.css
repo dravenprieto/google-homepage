@@ -36,14 +36,14 @@
     position: absolute;
     font-size: 22px;
     opacity: 32%;
-    margin-left: 675px;
+    margin-left: 680px;
     margin-top: 42px;
 }
 
 #mic-icon {
     position: absolute;
     font-size: 22px;
-    margin-left: -700px;
+    margin-left: -705px;
     margin-top: 42px;
     color: rgb(66,133,244)
 }
@@ -53,6 +53,7 @@
     list-style-type: none;
     padding: 0;
     margin-top: 20px;
+    margin-left: 15px;
 }
 
 #navbar-two {
@@ -60,10 +61,10 @@
     list-style-type: none;
     padding: 0;
     margin-top: -34px;
-    margin-left: 1680px;
+    margin-left: 1690px;
 }
 
-li a{
+#header li a{
     color: rgb(63, 63, 63);
     font-family: Roboto;
     font-size: 13px;
@@ -91,7 +92,7 @@ a:hover {
     margin-top: -5px;
 }
 
-body {
+#body {
     display: flex;
     flex-direction: column;
 }
@@ -137,4 +138,68 @@ body {
 #feeling-lucky:hover {
     border: 1px solid;
     color:#202020;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+ }
+ #container {
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+ }
+
+ #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;   
+    background:#f2f2f2;
+    border-top: 1px solid #e2e2e2;
+ }  
+
+ #footer-content {
+     display: flex;
+     position: absolute;
+     width: 1000px;
+     align-items: center;
+     list-style-type: none;
+     margin-left: -10px;
+     margin-top: 10px;
+ }
+
+ #footer-content-two {
+    display: flex;
+    position: absolute;
+    width: 1000px;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 1635px;
+    margin-top: 10px;
+}
+
+ #footer-content li a{
+    font-family: Roboto;
+    font-size: 14px;
+    color:rgb(102, 102, 102);
+    text-decoration: none;
+    padding-right: 40px;
+ }
+
+ #footer-content-two li a{
+    font-family: Roboto;
+    font-size: 14px;
+    color:rgb(102, 102, 102);
+    text-decoration: none;
+    padding-right: 40px;
+ }
+
+ #footer-content li a:hover {
+     text-decoration: underline;
+ }
+
+ #footer-content-two li a:hover {
+    text-decoration: underline;
 }
